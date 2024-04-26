@@ -60,7 +60,7 @@ const Main = () => {
             <Education />
             <Projects />
             <StartupProject />
-            {/* <Achievement /> */}
+            <Achievement />
             <Blogs />
             <Talks />
             <Twitter />
