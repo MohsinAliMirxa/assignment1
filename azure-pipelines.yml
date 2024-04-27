@@ -1,0 +1,19 @@
+trigger:
+  branches:
+    exclude:
+      - '*':
+
+pr:
+  branches:
+    include:
+      - '*'
+
+jobs:
+  - job: Build
+    displayName: 'Build Job'
+    pool:
+      name: Mohsin-k200353
+    
+    steps:
+    - script: echo 'Building the code'
+    displayName: 'Build Step'
