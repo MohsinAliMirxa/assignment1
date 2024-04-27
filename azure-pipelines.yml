@@ -1,7 +1,7 @@
 trigger:
   branches:
     exclude:
-      - '*':
+      - '*'
 
 pr:
   branches:
@@ -15,5 +15,5 @@ jobs:
       name: Mohsin-k200353
     
     steps:
-    - script: echo 'Building the code'
-      displayName: 'Build Step'
+      - script: echo 'Building the code'
+        displayName: 'Build Step'
