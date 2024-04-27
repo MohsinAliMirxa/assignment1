@@ -16,4 +16,4 @@ jobs:
     
     steps:
     - script: echo 'Building the code'
-    displayName: 'Build Step'
+      displayName: 'Build Step'
